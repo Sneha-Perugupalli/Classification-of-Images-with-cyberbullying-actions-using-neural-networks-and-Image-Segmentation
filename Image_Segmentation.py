@@ -10,9 +10,9 @@ import skimage.io as io
 from tensorflow.python import pywrap_tensorflow
 
 
-train_data = '/home/vperugu/DL_new/train'
-test_data = '/home/vperugu/DL_new/Final_test'
-segment_label = '/home/vperugu/DL_new/seg/segimaages'
+train_data = '#traindata'
+test_data = '#testdata'
+segment_label = '#segmentedimages ( Done using Labelme online tool )'
 
 tf.random.set_random_seed(1234)
 
